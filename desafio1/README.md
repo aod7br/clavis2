@@ -35,7 +35,7 @@ Ex.: `./programa 3 3 -1,0,-1,0,0,-1,-1,-1,-1 1,1`
     0
 ```
 
-**solucao**
+**Solução**
 A modelagem do labirinto em um array é bem direta. Fiz uma rotina de parse da linha de comando, construí o array e fiz uma rotina de solve com backtrack. Para facilitar a leitura, mudei o formato de output da solução, conforme exemplo abaixo:
 
 ```
