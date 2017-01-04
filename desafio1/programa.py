@@ -70,7 +70,6 @@ def solve(size, M, step, count=0):
     X=size[1]
     y=step[0]
     x=step[1]
-    print stringfy(M)
     if (0<=x and x<=X and 0<=y and y<=Y) and M[y][x]==0: # its OK to step here
         M[y][x]=1 # mark my position in map
         # I am at an exit, and its not a start, so its a solution!
