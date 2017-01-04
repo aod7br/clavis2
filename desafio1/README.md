@@ -33,6 +33,29 @@ Ex.: `./programa 3 3 -1,0,-1,0,0,-1,-1,-1,-1 1,1`
 
     Ex.: `./programa 3 3 -1,-1,-1,0,0,-1,-1,-1,-1 1,1`
     0
+    
+    Vou dar um exemplo que espero que lhe ajude:
+
+./programa 5 5 -1,0,-1,-1,-1,-1,0,0,0,-1,-1,0,-1,0,-1,-1,0,-1,0,-1,-1,0,-1,-1,-1 3,3
+
+A representação do labirinto inicial:
+
+-1   0   -1   -1   -1
+-1   0    0    0   -1
+-1   0   -1    0   -1
+-1   0   -1    0   -1
+-1   0   -1   -1   -1
+
+A representação do labirinto, com o caminho marcado de um ponto de entrada até um ponto de saída:
+
+-1   1   -1   -1   -1
+-1   1    0    0   -1
+-1   1   -1    0   -1
+-1   1   -1    0   -1
+-1   1   -1   -1   -1
+
+A resposta correta seria: -1,1,-1,-1,-1,-1,1,0,0,-1,-1,1,-1,0,-1,-1,1,-1,0,-1,-1,1,-1,-1,-1
+    
 ```
 
 **Solução**
