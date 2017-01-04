@@ -6,7 +6,7 @@ Desafio1 clavis
 03012017
 '''
 
-import sys
+from sys import exit
 from copy import deepcopy
 
 def entries(size, M):
