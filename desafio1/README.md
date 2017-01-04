@@ -46,5 +46,5 @@ A modelagem do labirinto em um array é bem direta. Fiz uma rotina de parse da l
 -1 0-1 0-1
 -1-1-1-1-1
 ```
-Para executar o programa é necessário python>=2.7 (testei com 2.7 no ubuntu). Basta baixar o programa `git clone git@github.com:aod7br/clavis2.git`, entrar no subdir `clavis2/desafio1` e executar o programa, como o exemplo acima. 
+Para executar o programa é necessário python>=2.6 (testei com 2.7 no ubuntu). Basta baixar o programa `git clone git@github.com:aod7br/clavis2.git`, entrar no subdir `clavis2/desafio1` e executar o programa, como o exemplo acima. 
 Se estiver no windows, rode ele com `python programa.py`
