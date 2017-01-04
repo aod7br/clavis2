@@ -36,7 +36,7 @@ Ex.: `./programa 3 3 -1,0,-1,0,0,-1,-1,-1,-1 1,1`
 ```
 
 **solucao**
-A modelagem do labirinto em um array é bem direta. Fiz uma rotina de parse da linha de comando, contruí o array e fiz uma rotina de solve com backtrack. Para facilitar a leitura, mudei o formato de output da solução, conforme exemplo abaixo:
+A modelagem do labirinto em um array é bem direta. Fiz uma rotina de parse da linha de comando, construí o array e fiz uma rotina de solve com backtrack. Para facilitar a leitura, mudei o formato de output da solução, conforme exemplo abaixo:
 
 ```
  ./programa.py   5 5 -1,-1,-1,-1,-1,-1,0,0,0,0,-1,0,0,0,-1,-1,0,-1,0,-1,-1,-1,-1,-1,-1 1,1
@@ -46,4 +46,4 @@ A modelagem do labirinto em um array é bem direta. Fiz uma rotina de parse da l
 -1 0-1 0-1
 -1-1-1-1-1
 ```
-
+Para executar o programa é necessário python>=2.7 (testei com 2.7). Basta baixar o programa `git clone git@github.com:aod7br/clavis2.git`, entrar no subdir desafio1 e executar o programa, como o exemplo acima.
