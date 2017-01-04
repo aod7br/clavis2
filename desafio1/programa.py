@@ -6,7 +6,7 @@ Desafio1 clavis
 03012017
 '''
 
-from sys import exit
+from sys import exit, argv
 from copy import deepcopy
 
 def entries(size, M):
@@ -100,7 +100,7 @@ def solve(size, M, step, count=0):
 
 if __name__ == '__main__':
     try:
-        size, M, start=parse(sys.argv)
+        size, M, start=parse(argv)
     except Exception, e:
         exit("""
          Erro: [{}] processando parametros.
