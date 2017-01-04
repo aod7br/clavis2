@@ -113,9 +113,7 @@ if __name__ == '__main__':
 
     solution=None
     for start in entries(size, M):
-        M2=deepcopy(M)
-        #M2[start[0]][start[1]]=1
-        solution=solve(size, M2, start)
+        solution=solve(size, deepcopy(M), start)
         if solution:
             break
 
