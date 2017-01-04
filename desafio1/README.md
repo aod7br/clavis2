@@ -59,7 +59,9 @@ A resposta correta seria: -1,1,-1,-1,-1,-1,1,0,0,-1,-1,1,-1,0,-1,-1,1,-1,0,-1,-1
 ```
 
 **Solução**
-A modelagem do labirinto em um array é bem direta. Fiz uma rotina de parse da linha de comando, construí o array e fiz uma rotina de solve com backtrack. Para facilitar a leitura, mudei o formato de output da solução, conforme exemplo abaixo:
+A modelagem do labirinto em um array é bem direta. Fiz uma rotina de parse da linha de comando, construí o array e fiz uma rotina de solve com backtrack. 
+De acordo com o ultimo exemplo acima, nós podemos solenemente ignorar o ponto inicial para achar a solução. Primeiro eu vasculho possiveis pontos de entrada nas bordas e comeco o algoritimo de backtrack dali.
+Para facilitar a leitura, mudei o formato de output da solução, conforme exemplo abaixo:
 
 ```
  ./programa.py   5 5 -1,-1,-1,-1,-1,-1,0,0,0,0,-1,0,0,0,-1,-1,0,-1,0,-1,-1,-1,-1,-1,-1 1,1
