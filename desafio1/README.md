@@ -1,6 +1,6 @@
 
-*Questão 1*. Desenvolver um programa em Ruby, Python ou Perl, sem auxílio de bibliotecas externas, para tentar encontrar a entrada e a saída de um labirinto. O programa deverá receber 4 argumentos na linha de comando, separados por espaços: # de linhas do labirinto, # de colunas do labirinto, uma string representando o labirinto e uma string representando o ponto de partida.
-
+**Questão 1**. Desenvolver um programa em Ruby, Python ou Perl, sem auxílio de bibliotecas externas, para tentar encontrar a entrada e a saída de um labirinto. O programa deverá receber 4 argumentos na linha de comando, separados por espaços: # de linhas do labirinto, # de colunas do labirinto, uma string representando o labirinto e uma string representando o ponto de partida.
+```
 Ex.: `./programa 3 3 -1,0,-1,0,0,-1,-1,-1,-1 1,1`
 
     - # de linhas do labirinto será sempre um inteiro
@@ -33,5 +33,17 @@ Ex.: `./programa 3 3 -1,0,-1,0,0,-1,-1,-1,-1 1,1`
 
     Ex.: `./programa 3 3 -1,-1,-1,0,0,-1,-1,-1,-1 1,1`
     0
-    
-`python programa.py   5 5 -1,-1,-1,-1,-1,-1,0,0,0,0,-1,0,0,0,-1,-1,0,-1,0,-1,-1,-1,-1,-1,-1 2,2`
+```
+
+**solucao**
+A modelagem do labirinto em um array é bem direta. Fiz uma rotina de parse da linha de comando, contruí o array e fiz uma rotina de solve com backtrack. Para facilitar a leitura, mudei o formato de output da solução, conforme exemplo abaixo:
+
+```
+ ./programa.py   5 5 -1,-1,-1,-1,-1,-1,0,0,0,0,-1,0,0,0,-1,-1,0,-1,0,-1,-1,-1,-1,-1,-1 1,1
+-1-1-1-1-1
+-1 1 1 1 1
+-1 1 1 0-1
+-1 0-1 0-1
+-1-1-1-1-1
+```
+
